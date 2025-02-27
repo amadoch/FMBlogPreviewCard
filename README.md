@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile View (Galaxy Z Fold 5)](./screenshots/)
-![Desktop View](./screenshots/)
+![Mobile View (Galaxy Z Fold 5)](./screenshots/Mobile%20View%20(Galaxy%20Z%20Fold%205).png)
+![Desktop View](./screenshots/Desktop%20View.png)
 
 ### Links
 
