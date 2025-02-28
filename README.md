@@ -31,12 +31,22 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://your-solution-url.com)
+- Solution URL: [Github Repo](https://github.com/amadoch/FMBlogPreviewCard)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 What do you do for grow this idea?
+This time I started to implement a css framework the most popular I founded was boostrap, implement atomic design in css through the class atributes in the html, easy as that. 
+
+So I read a round a hours the docs and started to mark the necesary element the first time, my result was I just lost the afternoon so I throw out the page and started a new one, this time I simpliefied in few step:
+1. first what a i falied? 
+- my mark flows in great block to litle size block, and using a framework what that in mind is bad cause the framework it's in charge to do the atomic parts for you, so my first solution was: flow in great block to size block.
+2. I was to much semantic?
+- Yes, I was a lot and I started believe thats as problem let me explain: I put the 60% of my effort on how about the browser can detect which part its fully w-aria and 30% reading how make a good practices and last 10% about the design and the requirements. 
+So this time my solution was: that I have to focus the 60% or 68% on how is the design and what need to work in html and css, and later when i almost finished this I focus a 20% on how can be more semantic and 10% how about the optimizing.
+3. Tried to go more far about grid or flexbox or media-queries, Tried to just focus on layouts
+- The problem is was I a lot worried that bootstrap don't have css grid (they have one in beta phase) but I cheer up a little when i come to think what I worry if x or y what if try first draw on my mind or an white paper and descomposed the look of the page, so I take almost a 15 minutes but produce the final look of my page, take a while but think is more efficient that closed the eyes and fool around with clases.
 
 ### Built with
 
@@ -45,25 +55,14 @@ What do you do for grow this idea?
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- [Bootstrap](https://getbootstrap.com/)
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+I happy to know that I can just specified the width of my component, for much time I think thas was a bad pratices but i see I was incorrect. See below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+<article class="container bg-light p-3 rounded" style="max-width: 320px;">
 ```
 
 
