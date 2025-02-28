@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/amadoch/FMBlogPreviewCard)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [blog-preview card test](https://blogpreviewcardtest.vercel.app/)
 
 ## My process
 
